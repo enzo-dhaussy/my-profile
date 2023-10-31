@@ -1,0 +1,112 @@
+
+body {
+  background: #ABC4DC;
+  color: #6181AE;
+  font-family: 'creepster', cursive;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h1, h2, h3 {
+  font-family: 'creepster', cursive;
+}
+
+h1 {
+  color: darkorange;
+  font-size: 33px;
+  font-weight: 900;
+}
+
+h2 {
+  color: darkorange;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+a {
+  font-family: 'creepster', cursive;
+  text-decoration: none;
+  color: darkorange;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: white;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 960px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    max-width: 300px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-blue:hover {
+  background-color: darkorange;
+  color: black;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+  transition: color 0.3s;
+}
+
+.list-inline i:hover {
+  color: darkorange;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
